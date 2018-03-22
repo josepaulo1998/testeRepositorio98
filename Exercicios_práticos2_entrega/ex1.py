@@ -9,9 +9,9 @@ MAX = 20
 MIN = 0
 
 if nota1 > MAX or nota2 > MAX or nota3 > MAX:
-    print("atuamae")
+    print("introduziu algum valor errado")
 elif  nota1 < MIN or nota2 < MIN or nota3 < MIN:
-        print("atuamae2")  
+        print("introduziu algum valor errado")  
 elif nota1 >= MIN and nota2 >= MIN and nota3 >= MIN:
     if nota1 <= MAX and nota2 <= MAX and nota3 <= MAX:
         nota1 *= 25
