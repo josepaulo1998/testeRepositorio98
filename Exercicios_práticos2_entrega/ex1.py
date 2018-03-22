@@ -9,13 +9,15 @@ nota1 *= 25
 nota2 *= 35
 nota3 *= 40 
 
+notas = [nota1, nota2, nota3]
+
 notafinal = (nota1 + nota2 + nota3) / 100
 
-if nota1 or nota2 or nota3 > 20:
+if nota1 > 20 or nota2 > 20 or nota3 > 20:
     print("Colocou algo de errado nas suas notas!")
-elif nota1 or nota2 or nota3 < 0:
+elif nota1 < 0 or nota2 < 0 or nota3 < 0:
     print("Colocou algo de errado nas suas notas!")
-elif notafinal >= 9.5:
+elif notas <= 20 and notas >= 0 and notafinal >= 9.5:
     print("Aprovado")
 else:
     print("Reprovado")
