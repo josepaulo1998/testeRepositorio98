@@ -1,15 +1,9 @@
 numero = int(input("Numero: "))
 
-while True:
-    for var in range(5):
-        numero += 1
-        print(numero)
-    break
+for variavel in range(numero + 1, numero + 6): 
+    print(variavel, end = " ")
 
-print()
+print("\n")
 
-while True:
-    for var in range(5):
-        numero -= 1
-        print(numero)
-    break
+for variavel1 in range(numero - 1,numero - 6, -1):
+    print(variavel1, end = " ")
